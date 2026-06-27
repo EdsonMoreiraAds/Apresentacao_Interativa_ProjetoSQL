@@ -37,7 +37,7 @@ div[data-baseweb="slider"] { padding-top: 4px; }
 """, unsafe_allow_html=True)
 
 # Load slides
-slides_dir = Path(__file__).parent / "slides"
+slides_dir = Path(__file__).parent
 slides = sorted(slides_dir.glob("slide_*.jpg"))
 total = len(slides)
 
